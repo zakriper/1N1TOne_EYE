@@ -9,7 +9,7 @@
 <p> sudo pip3 install -r requirements.txt <p>
 <p> python3 1N1TOne_EYE.py<p>
 
-<h2>example</h2>
+<h2>Example</h2>
 Enter Target Domain For Ex ( Exemple.com ) : enter target domain without www or https://  (example.com)
 
 <h1> Note</h2>
