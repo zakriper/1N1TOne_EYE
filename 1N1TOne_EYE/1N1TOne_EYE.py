@@ -18,7 +18,7 @@ print("\n")
 
 domain = input(str(bcolors.lightblue +'Enter Target Domain For Ex ( Exemple.com ) : '))
 if len(domain) <= 3:
-    print("nothing to seach")
+    print("nothing to search")
     quit()
 print("\n")
 
@@ -40,21 +40,21 @@ except:
 try:
 
     if len(Google_search.email_list) == 0:
-        print(bcolors.red + "Ops Sorry No Email Fund \n")
+        print(bcolors.red + "Ops Sorry No Email Found \n")
     elif len(Google_search.email_list) !=0:
         for e in Google_search.email_list:
             if e not in google_emails:
                 google_emails.append(e)
 
     if len(Google_search.instagram) == 0:
-        print(bcolors.red + "No Instagram account Fund \n")
+        print(bcolors.red + "No Instagram account Found \n")
     elif len(Google_search.instagram) !=0 :
         for I in Google_search.instagram:
             if I not in google_insta:
                 google_insta.append(I)
 
     if len(Google_search.facebook) == 0:
-        print(bcolors.red + "No Facebook Page Fund \n")
+        print(bcolors.red + "No Facebook Page Found \n")
     elif len(Google_search.facebook) !=0:
         for F in Google_search.facebook:
             if F not in google_face:
@@ -64,15 +64,15 @@ except:
 try:
 
     for i in google_emails:
-        print(bcolors.orange + "This Email Fund On GooGle may related To your Target : "  + i + "\n")
+        print(bcolors.orange + "This Email Found On GooGle may related To your Target : "  + i + "\n")
 
     for i in google_face:
         if i != "tr" and i != "p" and i != "pages":
-            print(bcolors.blue +  'This Facebook accunt Fund On GooGle may related To your Target : ' + "https://www.facebook.com/"+ i)
+            print(bcolors.blue +  'This Facebook accunt Found On GooGle may related To your Target : ' + "https://www.facebook.com/"+ i)
 
     for i in google_insta:
         if i != "tr" and i != "p" and i != "pages":
-            print(bcolors.green + 'This Instagrame accunt Fund On GooGle may related To your Target : ' + "https://www.instagram.com/" + i)
+            print(bcolors.green + 'This Instagrame accunt Found On GooGle may related To your Target : ' + "https://www.instagram.com/" + i)
 except:
     pass
 
@@ -95,21 +95,21 @@ except:
 try:
 
     if len(Yahoo_search.email_list) == 0:
-        print(bcolors.red + "Ops Sorry No Email Fund \n")
+        print(bcolors.red + "Ops Sorry No Email Found \n")
     elif len(Yahoo_search.email_list) !=0:
         for e in Yahoo_search.email_list:
             if e not in yahoo_emails:
                 yahoo_emails.append(e)
 
     if len(Yahoo_search.instagram) == 0:
-        print(bcolors.red + "No Instagram account Fund \n")
+        print(bcolors.red + "No Instagram account Found \n")
     elif len(Yahoo_search.instagram) !=0:
         for I in Yahoo_search.instagram:
             if I not in yahoo_insta:
                 yahoo_insta.append(I)
 
     if len(Yahoo_search.facebook) == 0:
-        print(bcolors.red + "No Facebook Page Fund \n")
+        print(bcolors.red + "No Facebook Page Found \n")
     elif len(Yahoo_search.facebook) != 0:
         for F in Yahoo_search.facebook:
             if F not in yahoo_face:
@@ -120,15 +120,15 @@ except:
 try:
 
     for i in yahoo_emails:
-        print(bcolors.orange  + 'This Email Fund On Yahoo may related To your Target : '+ i + '\n')
+        print(bcolors.orange  + 'This Email Found On Yahoo may related To your Target : '+ i + '\n')
 
     for i in yahoo_face:
         if i != "tr" and i != "p" and i != "pages":
-            print(bcolors.blue +  'This Facebook accunt Fund On Yahoo may related To your Target : ' + "https://www.facebook.com/"+ i + '\n')
+            print(bcolors.blue +  'This Facebook accunt Found On Yahoo may related To your Target : ' + "https://www.facebook.com/"+ i + '\n')
 
     for i in yahoo_insta:
         if i != "tr" and i != "p" and i != "pages":
-            print(bcolors.green + 'This Instagram accunt Fund On Yahoo may related To your Target : ' + "https://www.instagram.com/" + i + '\n')
+            print(bcolors.green + 'This Instagram accunt Found On Yahoo may related To your Target : ' + "https://www.instagram.com/" + i + '\n')
 except:
     pass
 print("\n\n")
@@ -153,14 +153,14 @@ for page in  pages :
         pass
 
     if len(req_domain.email_list) == 0:
-        print(bcolors.red + "Ops Sorry No Email Fund \n")
+        print(bcolors.red + "Ops Sorry No Email Found \n")
 
     elif len(req_domain.email_list) !=0:
         for e in req_domain.email_list:
             if e not in web_emails:
                 web_emails.append(e)
     if len(req_domain.instagram) == 0:
-        print(bcolors.red + "No Instagram account Fund \n")
+        print(bcolors.red + "No Instagram account Found \n")
 
     elif len(req_domain.instagram) !=0:
         for insta_page in req_domain.instagram:
@@ -168,20 +168,20 @@ for page in  pages :
                 web_insta.append(insta_page)
 
     if len(req_domain.facebook) == 0:
-        print(bcolors.red + "No Facebook Page Fund \n")
+        print(bcolors.red + "No Facebook Page Found \n")
     elif len(req_domain.facebook) != 0:
         for face_page in req_domain.facebook:
             if face_page not in web_face:
                 web_face.append(face_page)
 
 for i in web_emails:
-    print(bcolors.orange  + 'Email Fund On website : '+ i + "\n")
+    print(bcolors.orange  + 'Email Found On website : '+ i + "\n")
 
 for i in web_face:
     if i != "tr" and i != "p" and i != "pages":
-        print(bcolors.blue  + 'Facebok Page Fund On website : ' + "https://www.facebook.com/"+ i + "\n")
+        print(bcolors.blue  + 'Facebok Page Found On website : ' + "https://www.facebook.com/"+ i + "\n")
 for i in web_insta:
     if i != "tr" and i != "p" and i != "pages":
-        print(bcolors.green  +'Instagram accunt Fund On website : ' + "https://www.instagram.com/" + i + "\n")
+        print(bcolors.green  +'Instagram accunt Found On website : ' + "https://www.instagram.com/" + i + "\n")
 
 print(bcolors.blue +"==============================================***1N1TOne Club***==============================================")
