@@ -64,11 +64,11 @@ try:
 
     for i in google_face:
         if i != "tr" and i != "p" and i != "pages":
-            print(bcolors.blue +  'This Facebook accunt Found On GooGle may related To your Target : ' + "https://www.facebook.com/"+ i)
+            print(bcolors.blue +  'This Facebook account Found On GooGle may related To your Target : ' + "https://www.facebook.com/"+ i)
 
     for i in google_insta:
         if i != "tr" and i != "p" and i != "pages":
-            print(bcolors.green + 'This Instagrame accunt Found On GooGle may related To your Target : ' + "https://www.instagram.com/" + i)
+            print(bcolors.green + 'This Instagrame account Found On GooGle may related To your Target : ' + "https://www.instagram.com/" + i)
 except:
     pass
 
@@ -120,11 +120,11 @@ try:
 
     for i in yahoo_face:
         if i != "tr" and i != "p" and i != "pages":
-            print(bcolors.blue +  'This Facebook accunt Found On Yahoo may related To your Target : ' + "https://www.facebook.com/"+ i + '\n')
+            print(bcolors.blue +  'This Facebook account Found On Yahoo may related To your Target : ' + "https://www.facebook.com/"+ i + '\n')
 
     for i in yahoo_insta:
         if i != "tr" and i != "p" and i != "pages":
-            print(bcolors.green + 'This Instagram accunt Found On Yahoo may related To your Target : ' + "https://www.instagram.com/" + i + '\n')
+            print(bcolors.green + 'This Instagram account Found On Yahoo may related To your Target : ' + "https://www.instagram.com/" + i + '\n')
 except:
     pass
 print("\n\n")
@@ -174,9 +174,9 @@ for i in web_emails:
 
 for i in web_face:
     if i != "tr" and i != "p" and i != "pages":
-        print(bcolors.blue  + 'Facebok Page Found On website : ' + "https://www.facebook.com/"+ i + "\n")
+        print(bcolors.blue  + 'Facebook Page Found On website : ' + "https://www.facebook.com/"+ i + "\n")
 for i in web_insta:
     if i != "tr" and i != "p" and i != "pages":
-        print(bcolors.green  +'Instagram accunt Found On website : ' + "https://www.instagram.com/" + i + "\n")
+        print(bcolors.green  +'Instagram account Found On website : ' + "https://www.instagram.com/" + i + "\n")
 
 print(bcolors.blue +"==============================================***1N1TOne Club***==============================================")
