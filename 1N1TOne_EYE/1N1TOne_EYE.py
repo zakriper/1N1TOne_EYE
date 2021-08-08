@@ -22,7 +22,6 @@ if len(domain) <= 3:
     quit()
 print("\n")
 
-
 print(bcolors.blue + "============================================== GooGle Search ==============================================")
 print(bcolors.orange + "searching in google\n")
 r = Google_search(domain)
@@ -31,14 +30,11 @@ google_face = []
 google_insta = []
 
 try:
-
     emails = Google_search.get_emails(r)
     socila_media = Google_search.get_pages(r)
-    
 except:
     pass
 try:
-
     if len(Google_search.email_list) == 0:
         print(bcolors.red + "Ops Sorry No Email Found \n")
     elif len(Google_search.email_list) !=0:
@@ -145,7 +141,6 @@ print(bcolors.green + 'searching on website ')
 for page in  pages :
     
     try:
-        
         r = req_domain(domain , page)
         email = req_domain.Get_emails(r)
         social_media = req_domain.get_pages(r)
