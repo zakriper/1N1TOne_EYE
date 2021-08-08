@@ -20,12 +20,12 @@ Enter Target Domain For Ex ( Exemple.com ) : enter target domain without www or 
  
  <p>Simple<p>
  <p>Fast<p>
- <p>getting information related to your target not only your target domain<p>
+ <p>getting informations related to your target facebook tags instagram tags .. etc<p>
  
  <h1>Disadvantages:</h1>
  
  <p>you may face some errors<p>
- <p>you may getting wrong information<p>
+ <p>you may getting wrong informations<p>
  <p>the script may get blocked from google for sometime<p>
   
 <h2> This script is Tested in Kali linux</h2>
