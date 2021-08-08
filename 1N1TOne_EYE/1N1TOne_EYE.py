@@ -170,7 +170,8 @@ for page in  pages :
                 web_face.append(face_page)
 
 for i in web_emails:
-    print(bcolors.orange  + 'Email Found On website : '+ i + "\n")
+    if "https" not in i and '@' in i and '.' in i and '/' not in i:
+    	print(bcolors.orange  + 'Email Fund On website : '+ i + "\n")
 
 for i in web_face:
     if i != "tr" and i != "p" and i != "pages":
