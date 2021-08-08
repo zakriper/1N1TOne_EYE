@@ -15,5 +15,17 @@ Enter Target Domain For Ex ( Exemple.com ) : enter target domain without www or 
 <h1> Note</h2>
 
 <p>the tool may get other emails and social media account not related to your target<p>
+ 
+ <h1> Advantages: </h1>
+ 
+ <p>Simple<p>
+ <p>Fast<p>
+ <p>getting information related to your target not only your target domain<p>
+ 
+ <h1>Disadvantages:</h1>
+ 
+ <p>you may face some errors<p>
+ <p>you may getting wrong information<p>
+ <p>the script may get blocked from google for sometime<p>
   
 <h2> This script is Tested in Kali liunx</h2>
