@@ -16,4 +16,4 @@ Enter Target Domain For Ex ( Exemple.com ) : enter target domain without www or 
 
 <p>the tool may get other emails and social media account not related to your target<p>
   
-<h2> This script is Tested in Kali linx</h2>
+<h2> This script is Tested in Kali liunx</h2>
