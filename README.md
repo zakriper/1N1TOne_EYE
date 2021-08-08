@@ -28,4 +28,4 @@ Enter Target Domain For Ex ( Exemple.com ) : enter target domain without www or 
  <p>you may getting wrong information<p>
  <p>the script may get blocked from google for sometime<p>
   
-<h2> This script is Tested in Kali liunx</h2>
+<h2> This script is Tested in Kali linux</h2>
